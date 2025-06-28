@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Browsing Buddy",
+  "version": "1.1",
+  "description": "Digital pet that reacts to your browsing habits.",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
